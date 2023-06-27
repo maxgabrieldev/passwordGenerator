@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    <h1>Gerador de Senhas</h1>
+    <form action="/gerar" method="post">
+        <label for="local">Nome do Local:</label>
+        <input type="text" id="local" name="local" required>
+        <label for="tamanho">Tamanho da Senha:</label>
+        <input type="number" id="tamanho" name="tamanho" min="1" max="50" required>
+        <button type="submit">Gerar</button>
+    </form>
+</body>
+</html>
